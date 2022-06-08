@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
 :root {
-  --dark: #19181f;
   --white: #ffffff;
   --new-black: #1e1e26;
   --new-purple: #67159c;
-  --new-green: #07d962;
 }
 
 * {
