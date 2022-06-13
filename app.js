@@ -23,8 +23,8 @@ wholeProgram();
 function darkMode() {
   const darkModeBg = document.querySelector(".dark-mode");
   const darkModeBall = document.querySelector(".dark-mode-toggle");
-  darkModeBg.classList.add("active");
-  darkModeBall.classList.add("active");
+  darkModeBg.classList.toggle("active");
+  darkModeBall.classList.toggle("active");
 
   if (darkModeBg) {
     const newColorH1 = document.querySelector("h1");
@@ -32,10 +32,10 @@ function darkMode() {
     const newColorNewText = document.querySelector(".randomText");
     const newColorBody = document.querySelector("body");
     const newColorStringBox = document.querySelector(".stringBox");
-    newColorH1.classList.add("active");
-    newColorP.classList.add("active");
-    newColorNewText.classList.add("active");
-    newColorBody.classList.add("active");
-    newColorStringBox.classList.add("active");
+    newColorH1.classList.toggle("active");
+    newColorP.classList.toggle("active");
+    newColorNewText.classList.toggle("active");
+    newColorBody.classList.toggle("active");
+    newColorStringBox.classList.toggle("active");
   }
 }
