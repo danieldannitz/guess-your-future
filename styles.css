@@ -68,3 +68,29 @@ p {
   filter: brightness(90%);
   transition: 0.2s ease-in-out;
 }
+
+header {
+  display: flex;
+  justify-content: right;
+}
+
+header .dark-mode {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  width: 2.25rem;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+header .dark-mode-toggle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0.955rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--new-black);
+}
