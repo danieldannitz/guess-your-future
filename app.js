@@ -7,6 +7,9 @@ const array = [
   "Nem pensando",
   "Nem sonhando",
 ];
-
 const randomArrayElement = array[Math.floor(array.length * Math.random())];
-console.log(randomArrayElement);
+
+const submitButton = document.querySelector(".submitButton");
+submitButton.addEventListener("click", () => {
+  document.querySelector(".randomText").innerHTML = `${randomArrayElement}`;
+});
