@@ -105,48 +105,23 @@ p.active {
 header {
   display: flex;
   justify-content: right;
+  margin-right: 32px;
+  margin-top: 32px;
 }
 
-header .dark-mode {
-  margin-top: 2rem;
-  margin-right: 2rem;
-  padding: 1rem;
-  width: 2.25rem;
-  background-color: #ffffff;
-  position: relative;
-  border-radius: 0.5rem;
-}
-
-header .dark-mode-toggle {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  padding: 0.955rem;
-  border-radius: 50%;
+.dark-mode {
+  padding: 16px;
+  background-color: #919491;
+  border-radius: 8px;
   cursor: pointer;
-  background-color: var(--new-black);
 }
 
-header .dark-mode.active {
-  position: relative;
-  background-color: var(--new-black);
-  margin-top: 2rem;
-  margin-right: 2rem;
-  padding: 1rem;
-  width: 2.25rem;
-  border-radius: 0.5rem;
+.dark-mode:hover {
+  background-color: #308044;
   transition: background-color 0.2s ease-in-out;
 }
 
-header .dark-mode-toggle.active {
-  transition: background-color 0.2s ease-in-out;
-  position: absolute;
-  right: 50px;
-  top: 0;
-  bottom: 0;
-  padding: 0.955rem;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: var(--white);
+.border {
+  border: 2px solid black;
+  border-radius: 8px;
 }
