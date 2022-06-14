@@ -22,9 +22,7 @@ wholeProgram();
 
 function darkMode() {
   const darkModeBg = document.querySelector(".dark-mode");
-  const darkModeBall = document.querySelector(".dark-mode-toggle");
   darkModeBg.classList.toggle("active");
-  darkModeBall.classList.toggle("active");
 
   if (darkModeBg) {
     const newColorH1 = document.querySelector("h1");
